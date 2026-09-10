@@ -1,0 +1,222 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+.dark ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c;
+}
+
+/* Manga Halftone & Ink Effect Patterns */
+.bg-manga-halftone {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.12) 1px, transparent 0);
+  background-size: 14px 14px;
+}
+.dark .bg-manga-halftone {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 0);
+  background-size: 14px 14px;
+}
+
+.bg-cyber-grid {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.dark .bg-cyber-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Manga brush border styling */
+.manga-border {
+  border: 2px solid #171717;
+  box-shadow: 4px 4px 0px #171717;
+}
+.dark .manga-border {
+  border: 2px solid #e5e5e5;
+  box-shadow: 4px 4px 0px #dc2626;
+}
+
+.manga-border-crimson {
+  border: 2px solid #dc2626;
+  box-shadow: 4px 4px 0px #991b1b;
+}
+
+/* Organic Cloud Shapes */
+.cloud-border {
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+}
+
+/* Animations */
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+@keyframes cloud-drift {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(110%);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.92);
+    opacity: 0.8;
+  }
+}
+
+@keyframes haki-burst {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+@keyframes awaken-shake {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  10% { transform: translate(-3px, -2px) rotate(-1deg); }
+  20% { transform: translate(3px, 2px) rotate(1deg); }
+  30% { transform: translate(-4px, 3px) rotate(-0.5deg); }
+  40% { transform: translate(4px, -1px) rotate(1deg); }
+  50% { transform: translate(-2px, 2px) rotate(-1deg); }
+  60% { transform: translate(3px, 1px) rotate(0.5deg); }
+  70% { transform: translate(-2px, -3px) rotate(-0.5deg); }
+  80% { transform: translate(2px, 2px) rotate(0.5deg); }
+  90% { transform: translate(-1px, -1px) rotate(0deg); }
+}
+
+.animate-float-gentle {
+  animation: float-gentle 6s ease-in-out infinite;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 4s ease-in-out infinite;
+}
+
+.awakening-active {
+  animation: awaken-shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* Gear 5 Spirit Animations */
+@keyframes gear5-hair-swirl {
+  0%, 100% {
+    filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.9)) drop-shadow(0 0 35px rgba(220, 38, 38, 0.6));
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    filter: drop-shadow(0 0 28px rgba(255, 255, 255, 1)) drop-shadow(0 0 50px rgba(220, 38, 38, 0.9));
+    transform: scale(1.03) translateY(-4px);
+  }
+}
+
+@keyframes gear5-cloud-orbit {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes gear5-lightning-flicker {
+  0%, 100% { opacity: 0.2; }
+  15% { opacity: 0.9; }
+  25% { opacity: 0.3; }
+  45% { opacity: 1; }
+  60% { opacity: 0.4; }
+  75% { opacity: 0.95; }
+  85% { opacity: 0.2; }
+}
+
+@keyframes drums-heartbeat {
+  0% { transform: scale(1); }
+  14% { transform: scale(1.04); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.025); }
+  60% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+.animate-gear5-hair {
+  animation: gear5-hair-swirl 2.5s ease-in-out infinite;
+}
+
+.animate-gear5-orbit {
+  animation: gear5-cloud-orbit 12s linear infinite;
+}
+
+.animate-gear5-lightning {
+  animation: gear5-lightning-flicker 1.8s steps(4, start) infinite;
+}
+
+.animate-drums-beat {
+  animation: drums-heartbeat 0.9s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+/* Print styles for Resume */
+@media print {
+  nav, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
