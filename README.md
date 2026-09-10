@@ -1,20 +1,97 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ⚡ Portfolio-Gear5
 
-# Run and deploy your AI Studio app
+### Personal Cybersecurity Portfolio — Built with React, TypeScript & Motion
 
-This contains everything you need to run your app locally.
+> A dynamic, interactive portfolio showcasing my journey, projects, research, cybersecurity skills, certifications and technical interests.
 
-View your app in AI Studio: https://ai.studio/apps/d3518d3e-8152-44d4-82d3-f213bfbd3905
+🌐 **Live Portfolio:**  
+https://aslamxsthets.github.io/Portfolio-Gear5/
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🏴‍☠️ About the Project
 
+**Portfolio-Gear5** is my personal portfolio website designed to present my technical journey in Cybersecurity Engineering, with a particular interest in **Digital Forensics and Incident Response (DFIR)**.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The website combines a modern cybersecurity aesthetic with an energetic, animated interface inspired by the visual spirit of **Gear 5** — while using original UI elements and graphics.
+
+Rather than being a simple static resume, the portfolio is designed as an interactive experience where visitors can explore my:
+
+- 🛡️ Cybersecurity skills
+- 🔎 Digital Forensics & Incident Response interests
+- 💻 Technical projects
+- 🧪 Research work
+- 📜 Certifications
+- 🏆 Achievements
+- 🎓 Education
+- 🎤 Technical events and workshops
+- ✍️ Writing and interests
+- 📄 Resume
+- 📬 Contact information
+
+---
+
+## ✨ Features
+
+- ⚡ Modern animated user interface
+- 🎨 Gear 5-inspired visual theme
+- 🌀 Smooth page and section animations
+- 🖱️ Custom interactive cursor
+- 📱 Fully responsive design
+- 🌙 Dark-themed cybersecurity aesthetic
+- 🎭 Animated loading experience
+- 💫 Scroll-based animations
+- 🧩 Interactive project and skill sections
+- 📜 Certifications showcase
+- 🏆 Research and achievements section
+- 📄 Resume section
+- 📬 Functional contact form
+- 🔗 Social media and professional links
+- ♿ Reduced-motion support
+- 🚀 Optimized production build
+- 🌐 GitHub Pages deployment through GitHub Actions
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide React**
+
+### Services & Deployment
+
+- **EmailJS** — Contact form delivery
+- **GitHub Actions** — Automated deployment
+- **GitHub Pages** — Website hosting
+
+### Development
+
+- **Visual Studio Code**
+- **Git**
+- **GitHub**
+- **npm**
+
+---
+
+## 🧠 Cybersecurity Focus
+
+My primary technical interests are centered around:
+
+```text
+Digital Forensics
+       ↓
+Incident Response
+       ↓
+Threat Investigation
+       ↓
+Network Analysis
+       ↓
+Security Operations
+       ↓
+Threat Hunting
