@@ -63,8 +63,9 @@ PROJECT HIGHLIGHTS:
 - SOC Log Analysis Using Splunk
 - Shoulder Surfing Protection APK (Mobile Security)
 - Network Traffic Analysis Using Wireshark
-- AI-Powered Forensic Chatbot for Secure UFDR Analysis (Smart India Hackathon)
+- AI-Powered Forensic Chatbot for Secure UFDR Analysis - Smart India Hackathon - (SIH'25)
 - SPECTRE (MSME Context) & LUMEN Anomaly Detection
+- Patient Case-Taking Software using AIML - Smart India Hackathon (SIH’26)
 
 PUBLICATIONS & RESEARCH:
 - FLORATUNE (ICISML 2026)
