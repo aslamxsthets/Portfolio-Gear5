@@ -48,18 +48,18 @@ export const educationTimeline = [
   {
     period: "2022 — 2024",
     institution: "Petit Seminaire Higher Secondary School",
-    degree: "Secondary School Leaving Certificate (SSLC) / Higher Secondary",
+    degree: "Higher Secondary Certificate (HSC) Foundation",
     specialization: "Biology — Mathematics",
     status: "Completed",
-    highlights: "Strong foundational analytical and mathematical training with scientific reasoning."
+    highlights: "Academic groundwork in logic, scientific methods, and quantitative problem solving."
   },
   {
     period: "2021 — 2022",
     institution: "Petit Seminaire Higher Secondary School",
-    degree: "Higher Secondary Certificate (HSC) Foundation",
-    specialization: "Science & Mathematics Stream",
+    degree: "Secondary School Leaving Certificate (SSLC) / Higher Secondary",
+    specialization: "Academic foundation in science and mathematics",
     status: "Completed",
-    highlights: "Academic groundwork in logic, scientific methods, and quantitative problem solving."
+    highlights: "Strong foundational analytical and mathematical training with scientific reasoning."
   }
 ];
 

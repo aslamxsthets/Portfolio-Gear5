@@ -51,8 +51,10 @@ ${profileData.summary}
 EDUCATION:
 - Manakula Vinayagar Institute of Technology (2024 - 2028 Expected)
   B.Tech Computer Science and Engineering (IoT & Cybersecurity including Blockchain Technology)
+- Petit Seminaire Higher Secondary School (2021 - 2022)
+  Secondary School Leaving Certificate (SSLC) / Higher Secondary
 - Petit Seminaire Higher Secondary School (2022 - 2024)
-  SSLC / Higher Secondary (Biology - Mathematics)
+  Higher Secondary Certificate (HSC) Foundation (Biology - Mathematics)
 
 CORE FOCUS AREAS:
 Digital Forensics, Incident Response, Network Security, Evidence Analysis, Threat Investigation, Security Analysis.
